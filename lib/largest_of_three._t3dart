@@ -1,0 +1,29 @@
+import 'dart:io';
+
+void main(){
+  print("Enter fNo:");
+  int a= int.parse(stdin.readLineSync()!);
+  print("Enter fNo:");
+  int b= int.parse(stdin.readLineSync()!);
+  print("Enter fNo:");
+  int c= int.parse(stdin.readLineSync()!);
+
+  if(a>b && a>c){
+    print("$a is largest number");
+  }else if(b>c){
+    print("$b is largest no");
+  }else{
+    print("$c is largest no");
+  }
+
+  // if(a>b && a>c){
+  //   print("$a");
+  // }else{
+  //   if(b>a && b>c) {
+  //     print("$b");
+  //   }else{
+  //     print("$c");
+  //   }
+  // }
+
+}
