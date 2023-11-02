@@ -11,7 +11,7 @@ class Fish extends LivingBeings{
   }
 }
 
-class Human extends LivingBeings {
+class Human extends Fish {
   @override
   void hand() {
     super.hand();
